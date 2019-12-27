@@ -33,4 +33,4 @@ CronJobs provide a method for scheduling the execution of Pods. They are excelle
 CustomResourceDefinitions, or CRDs, provide an extension mechanism that cluster operators and developers can use to create their own resource types.
 - CRD defines new resource type and tells k8s about it.
 - Once new resource type is added, new instances of that resource may be created.
-- Handling CRD changes is up to you. A common pattern is to create custom controller that watches for new CRD instances and responds   accordingly.
+- Handling CRD changes is up to you. A common pattern is to create custom controller that watches for new CRD instances and responds.
